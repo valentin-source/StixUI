@@ -145,6 +145,8 @@
     "webpack": "4.41.5",
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "4.2.2"
+    "webpack-merge": "4.2.2",
+    "script-loader": "^8.19.4",
+    "uuid": "^8.19.4"
   }
 }
