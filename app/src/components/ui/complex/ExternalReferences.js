@@ -4,7 +4,7 @@ import {observer, inject} from "mobx-react";
 import classNames from "classnames";
 import Tooltip from "react-tooltip";
 import Text from "../inputs/Text";
-import uuid from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 import killChainStyle from "./externalreferences.scss";
 
@@ -100,7 +100,7 @@ const ReferenceBlock = (props) => {
         }
 
         blocks.push(
-            <div key={uuid()} className="er-block-row">
+            <div key={uuidv4()} className="er-block-row">
                 <div>{item}: {JSON.stringify(props.kv[item])} {remove}</div>
             </div>
         )
@@ -111,7 +111,7 @@ const ReferenceBlock = (props) => {
             <select id={selectID}>
                 {
                     propValues.map(prop => {
-                        return <option key={uuid()} value={prop}>{prop}</option>
+                        return <option key={uuidv4()} value={prop}>{prop}</option>
                     })
                 }
             </select>
