@@ -1,6 +1,6 @@
 import deepmerge from "deepmerge";
 import moment from "moment";
-import uuidv4 from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 const SPEC_VERSION = 2.1;
 
