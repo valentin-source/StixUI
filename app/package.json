@@ -21,6 +21,9 @@
       "pre-commit": "lint-staged"
     }
   },
+  "engines": {
+  "node": "11.x"
+  },
   "jest": {
     "testEnvironment": "jsdom",
     "moduleDirectories": [
