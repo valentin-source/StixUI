@@ -44,9 +44,11 @@ Specific vocab notes
 # Usage
 
 Currently, the only usage workflow is via a dev build outlined below. This is simple enough for anyone to perform.
+nve is used to change the node version. this isnt necceary if the node version is manually changed to 11.
 
  - Pull down bits (via fork or clicking download)
  - $ cd app
+ - $nve use 11
  - $npm install
  - $npm start
 
