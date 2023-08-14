@@ -6,7 +6,7 @@ import _merge from "lodash/merge";
 import moment from "moment";
 import Proxy from "./Proxy";
 
-import uuidv4 from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 import ap from "../definition-adapters/AttackPattern.js";
 import indicator from "../definition-adapters/Indicator.js";
