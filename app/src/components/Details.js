@@ -15,7 +15,7 @@ import CSVInput from "./ui/inputs/CSVInput";
 import Boolean from "./ui/inputs/Boolean";
 import GenericObject from "./ui/complex/GenericObject";
 import ConfirmTextarea from "./ui/complex/ConfirmTextarea";
-import uuid from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 import detailsStyle from './details.scss';
 
@@ -188,7 +188,7 @@ export default class Details extends React.Component {
                     control = <GenericObject name={prop}
                                 value={props[prop].value}
                                 description={props[prop].description}
-                                key={uuid()}
+                                key={uuidv4()}
                                 field={prop}
                                 onClickAddObjectHandler={this.props.onClickAddGenericObjectHandler}
                                 onClickDeleteObjectHandler={this.props.onClickDeleteGenericObjectHandler}
@@ -198,7 +198,7 @@ export default class Details extends React.Component {
                     control = <ConfirmTextarea name={prop}
                                 value={props[prop].value}
                                 description={props[prop].description}
-                                key={uuid()}
+                                key={uuidv4()}
                                 field={prop}
                                 onClickAddTextHandler={this.props.onClickAddTextHandler} />
                     break;
