@@ -4,7 +4,7 @@ import {observer, inject} from "mobx-react";
 import classNames from "classnames";
 import Tooltip from "react-tooltip";
 import Text from "../inputs/Text";
-import uuid from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 import killChainStyle from "./genericobject.scss";
 
@@ -66,7 +66,7 @@ export default class GenericObject extends React.Component {
         for (let key in value) {
             rows.push(
                 <ExtBlocks
-                    key={uuid()}
+                    key={uuidv4()}
                     v={value[key]}
                     k={key}
                     field={field}
