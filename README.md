@@ -19,6 +19,9 @@ this only works with some versions of http-server though.
 
 Alternatively open the index.html file located in the build directory directly in your browser.
 
+### Questions regarding my fork: et99e3bg9@mozmail.com
+---
+
 # All the following is the original README.md file:
 
 ![Image of UI](https://github.com/STIX-Modeler/UI/blob/develop/example-stix.png)
