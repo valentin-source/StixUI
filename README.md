@@ -2,6 +2,11 @@
 # FORK for use with NODE 11 with minor tweaks
 
 ## to Use:
+### Option 1:
+use the `prepare.sh` file to install and execute the program and environment. (`sh ./prepare.sh`)
+
+
+### Option 2
 install Node 11 (preferably via Node Version Manager (nvm)
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
 `source ~/.bashrc`
