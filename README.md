@@ -1,4 +1,25 @@
 # STIX 2.1 Drag and Drop Modeler
+# FORK for use with NODE 11 with minor tweaks
+
+## to Use:
+install Node 11 (preferably via Node Version Manager (nvm)
+```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
+`source ~/.bashrc`
+`command -v nvm`
+`nvm install 11`
+`nvm use 11`
+### then change in the 'app' directory:
+`npm install`
+`npm start`
+### alternatively:
+`npm run build`
+then after changing into the build directory:
+`npx http-server`
+this only works with some versions of http-server though. 
+
+Alternatively open the index.html file located in the build directory directly in your browser.
+
+# All the following is the original README.md file:
 
 ![Image of UI](https://github.com/STIX-Modeler/UI/blob/develop/example-stix.png)
 
@@ -48,7 +69,6 @@ nve is used to change the node version. this isnt necceary if the node version i
 
  - Pull down bits (via fork or clicking download)
  - $ cd app
- - $nve use 11
  - $npm install
  - $npm start
 
