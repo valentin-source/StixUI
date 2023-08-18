@@ -28,4 +28,4 @@ Alternatively open the index.html file located in the build directory directly i
 ---
 
 The README.md of the original project by Jason minnick is available here: 
-
+https://github.com/valentin-source/StixUI/blob/develop/README-ORIG.md
