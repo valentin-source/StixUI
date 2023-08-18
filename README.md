@@ -3,7 +3,7 @@
 
 ## to Use:
 install Node 11 (preferably via Node Version Manager (nvm)
-```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
 `source ~/.bashrc`
 `command -v nvm`
 `nvm install 11`
