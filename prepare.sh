@@ -32,7 +32,7 @@ nvm install 11
 nvm use 11
 echo "Pulling StixUI project"
 git pull https://github.com/valentin-source/StixUI.git
-cd ./StixUI/app
+cd ./app
 echo "Building and running Project:"
 npm run build
 cd ./build
