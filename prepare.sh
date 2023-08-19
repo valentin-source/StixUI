@@ -26,7 +26,8 @@ fi
 echo "now installing Node Version Manager"
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-source ~/.bashrc
+source ~/.nvm/nvm.sh #load nvm into current shell session
+source ~/.bashrc #load bashrc changes
 echo "installing Node:11"
 nvm install 11
 nvm use 11
